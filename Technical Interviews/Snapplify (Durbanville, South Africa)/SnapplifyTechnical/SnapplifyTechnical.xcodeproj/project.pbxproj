@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C40B15E1E38EE3600093778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B15D1E38EE3600093778 /* main.m */; };
+		3C40B1611E38EE3600093778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B1601E38EE3600093778 /* AppDelegate.m */; };
+		3C40B1641E38EE3600093778 /* SNTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B1631E38EE3600093778 /* SNTViewController.m */; };
+		3C40B1671E38EE3600093778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C40B1651E38EE3600093778 /* Main.storyboard */; };
+		3C40B1691E38EE3600093778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C40B1681E38EE3600093778 /* Assets.xcassets */; };
+		3C40B16C1E38EE3600093778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C40B16A1E38EE3600093778 /* LaunchScreen.storyboard */; };
+		3C40B1771E38EE3600093778 /* SnapplifyTechnicalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B1761E38EE3600093778 /* SnapplifyTechnicalTests.m */; };
+		3C40B1821E38EE3600093778 /* SnapplifyTechnicalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B1811E38EE3600093778 /* SnapplifyTechnicalUITests.m */; };
+		3C40B1911E38F17A00093778 /* SNTNetworkAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B1901E38F17A00093778 /* SNTNetworkAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C40B1731E38EE3600093778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C40B1511E38EE3600093778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C40B1581E38EE3600093778;
+			remoteInfo = SnapplifyTechnical;
+		};
+		3C40B17E1E38EE3600093778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C40B1511E38EE3600093778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C40B1581E38EE3600093778;
+			remoteInfo = SnapplifyTechnical;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C40B1591E38EE3600093778 /* SnapplifyTechnical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapplifyTechnical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C40B15D1E38EE3600093778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C40B15F1E38EE3600093778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C40B1601E38EE3600093778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C40B1621E38EE3600093778 /* SNTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNTViewController.h; sourceTree = "<group>"; };
+		3C40B1631E38EE3600093778 /* SNTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNTViewController.m; sourceTree = "<group>"; };
+		3C40B1661E38EE3600093778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C40B1681E38EE3600093778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C40B16B1E38EE3600093778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C40B16D1E38EE3600093778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C40B1721E38EE3600093778 /* SnapplifyTechnicalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapplifyTechnicalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C40B1761E38EE3600093778 /* SnapplifyTechnicalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapplifyTechnicalTests.m; sourceTree = "<group>"; };
+		3C40B1781E38EE3600093778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C40B17D1E38EE3600093778 /* SnapplifyTechnicalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapplifyTechnicalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C40B1811E38EE3600093778 /* SnapplifyTechnicalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapplifyTechnicalUITests.m; sourceTree = "<group>"; };
+		3C40B1831E38EE3600093778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C40B18F1E38F17A00093778 /* SNTNetworkAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTNetworkAPI.h; sourceTree = "<group>"; };
+		3C40B1901E38F17A00093778 /* SNTNetworkAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTNetworkAPI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C40B1561E38EE3600093778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C40B16F1E38EE3600093778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C40B17A1E38EE3600093778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C40B1501E38EE3600093778 = {
+			isa = PBXGroup;
+			children = (
+				3C40B15B1E38EE3600093778 /* SnapplifyTechnical */,
+				3C40B1751E38EE3600093778 /* SnapplifyTechnicalTests */,
+				3C40B1801E38EE3600093778 /* SnapplifyTechnicalUITests */,
+				3C40B15A1E38EE3600093778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C40B15A1E38EE3600093778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C40B1591E38EE3600093778 /* SnapplifyTechnical.app */,
+				3C40B1721E38EE3600093778 /* SnapplifyTechnicalTests.xctest */,
+				3C40B17D1E38EE3600093778 /* SnapplifyTechnicalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C40B15B1E38EE3600093778 /* SnapplifyTechnical */ = {
+			isa = PBXGroup;
+			children = (
+				3C40B15F1E38EE3600093778 /* AppDelegate.h */,
+				3C40B1601E38EE3600093778 /* AppDelegate.m */,
+				3C40B1621E38EE3600093778 /* SNTViewController.h */,
+				3C40B1631E38EE3600093778 /* SNTViewController.m */,
+				3C40B18F1E38F17A00093778 /* SNTNetworkAPI.h */,
+				3C40B1901E38F17A00093778 /* SNTNetworkAPI.m */,
+				3C40B1651E38EE3600093778 /* Main.storyboard */,
+				3C40B1681E38EE3600093778 /* Assets.xcassets */,
+				3C40B16A1E38EE3600093778 /* LaunchScreen.storyboard */,
+				3C40B16D1E38EE3600093778 /* Info.plist */,
+				3C40B15C1E38EE3600093778 /* Supporting Files */,
+			);
+			path = SnapplifyTechnical;
+			sourceTree = "<group>";
+		};
+		3C40B15C1E38EE3600093778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C40B15D1E38EE3600093778 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C40B1751E38EE3600093778 /* SnapplifyTechnicalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C40B1761E38EE3600093778 /* SnapplifyTechnicalTests.m */,
+				3C40B1781E38EE3600093778 /* Info.plist */,
+			);
+			path = SnapplifyTechnicalTests;
+			sourceTree = "<group>";
+		};
+		3C40B1801E38EE3600093778 /* SnapplifyTechnicalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C40B1811E38EE3600093778 /* SnapplifyTechnicalUITests.m */,
+				3C40B1831E38EE3600093778 /* Info.plist */,
+			);
+			path = SnapplifyTechnicalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C40B1581E38EE3600093778 /* SnapplifyTechnical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C40B1861E38EE3600093778 /* Build configuration list for PBXNativeTarget "SnapplifyTechnical" */;
+			buildPhases = (
+				3C40B1551E38EE3600093778 /* Sources */,
+				3C40B1561E38EE3600093778 /* Frameworks */,
+				3C40B1571E38EE3600093778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapplifyTechnical;
+			productName = SnapplifyTechnical;
+			productReference = 3C40B1591E38EE3600093778 /* SnapplifyTechnical.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C40B1711E38EE3600093778 /* SnapplifyTechnicalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C40B1891E38EE3600093778 /* Build configuration list for PBXNativeTarget "SnapplifyTechnicalTests" */;
+			buildPhases = (
+				3C40B16E1E38EE3600093778 /* Sources */,
+				3C40B16F1E38EE3600093778 /* Frameworks */,
+				3C40B1701E38EE3600093778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C40B1741E38EE3600093778 /* PBXTargetDependency */,
+			);
+			name = SnapplifyTechnicalTests;
+			productName = SnapplifyTechnicalTests;
+			productReference = 3C40B1721E38EE3600093778 /* SnapplifyTechnicalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C40B17C1E38EE3600093778 /* SnapplifyTechnicalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C40B18C1E38EE3600093778 /* Build configuration list for PBXNativeTarget "SnapplifyTechnicalUITests" */;
+			buildPhases = (
+				3C40B1791E38EE3600093778 /* Sources */,
+				3C40B17A1E38EE3600093778 /* Frameworks */,
+				3C40B17B1E38EE3600093778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C40B17F1E38EE3600093778 /* PBXTargetDependency */,
+			);
+			name = SnapplifyTechnicalUITests;
+			productName = SnapplifyTechnicalUITests;
+			productReference = 3C40B17D1E38EE3600093778 /* SnapplifyTechnicalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C40B1511E38EE3600093778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = RandomDudes;
+				TargetAttributes = {
+					3C40B1581E38EE3600093778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GGAXD5EY64;
+						ProvisioningStyle = Automatic;
+					};
+					3C40B1711E38EE3600093778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GGAXD5EY64;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C40B1581E38EE3600093778;
+					};
+					3C40B17C1E38EE3600093778 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GGAXD5EY64;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C40B1581E38EE3600093778;
+					};
+				};
+			};
+			buildConfigurationList = 3C40B1541E38EE3600093778 /* Build configuration list for PBXProject "SnapplifyTechnical" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C40B1501E38EE3600093778;
+			productRefGroup = 3C40B15A1E38EE3600093778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C40B1581E38EE3600093778 /* SnapplifyTechnical */,
+				3C40B1711E38EE3600093778 /* SnapplifyTechnicalTests */,
+				3C40B17C1E38EE3600093778 /* SnapplifyTechnicalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C40B1571E38EE3600093778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C40B16C1E38EE3600093778 /* LaunchScreen.storyboard in Resources */,
+				3C40B1691E38EE3600093778 /* Assets.xcassets in Resources */,
+				3C40B1671E38EE3600093778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C40B1701E38EE3600093778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C40B17B1E38EE3600093778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C40B1551E38EE3600093778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C40B1641E38EE3600093778 /* SNTViewController.m in Sources */,
+				3C40B1611E38EE3600093778 /* AppDelegate.m in Sources */,
+				3C40B15E1E38EE3600093778 /* main.m in Sources */,
+				3C40B1911E38F17A00093778 /* SNTNetworkAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C40B16E1E38EE3600093778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C40B1771E38EE3600093778 /* SnapplifyTechnicalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C40B1791E38EE3600093778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C40B1821E38EE3600093778 /* SnapplifyTechnicalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C40B1741E38EE3600093778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C40B1581E38EE3600093778 /* SnapplifyTechnical */;
+			targetProxy = 3C40B1731E38EE3600093778 /* PBXContainerItemProxy */;
+		};
+		3C40B17F1E38EE3600093778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C40B1581E38EE3600093778 /* SnapplifyTechnical */;
+			targetProxy = 3C40B17E1E38EE3600093778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C40B1651E38EE3600093778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C40B1661E38EE3600093778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C40B16A1E38EE3600093778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C40B16B1E38EE3600093778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C40B1841E38EE3600093778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C40B1851E38EE3600093778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C40B1871E38EE3600093778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GGAXD5EY64;
+				INFOPLIST_FILE = SnapplifyTechnical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomdudes.SnapplifyTechnical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C40B1881E38EE3600093778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GGAXD5EY64;
+				INFOPLIST_FILE = SnapplifyTechnical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomdudes.SnapplifyTechnical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C40B18A1E38EE3600093778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GGAXD5EY64;
+				INFOPLIST_FILE = SnapplifyTechnicalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomdudes.SnapplifyTechnicalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapplifyTechnical.app/SnapplifyTechnical";
+			};
+			name = Debug;
+		};
+		3C40B18B1E38EE3600093778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GGAXD5EY64;
+				INFOPLIST_FILE = SnapplifyTechnicalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomdudes.SnapplifyTechnicalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapplifyTechnical.app/SnapplifyTechnical";
+			};
+			name = Release;
+		};
+		3C40B18D1E38EE3600093778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GGAXD5EY64;
+				INFOPLIST_FILE = SnapplifyTechnicalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomdudes.SnapplifyTechnicalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapplifyTechnical;
+			};
+			name = Debug;
+		};
+		3C40B18E1E38EE3600093778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GGAXD5EY64;
+				INFOPLIST_FILE = SnapplifyTechnicalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randomdudes.SnapplifyTechnicalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapplifyTechnical;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C40B1541E38EE3600093778 /* Build configuration list for PBXProject "SnapplifyTechnical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C40B1841E38EE3600093778 /* Debug */,
+				3C40B1851E38EE3600093778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C40B1861E38EE3600093778 /* Build configuration list for PBXNativeTarget "SnapplifyTechnical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C40B1871E38EE3600093778 /* Debug */,
+				3C40B1881E38EE3600093778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C40B1891E38EE3600093778 /* Build configuration list for PBXNativeTarget "SnapplifyTechnicalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C40B18A1E38EE3600093778 /* Debug */,
+				3C40B18B1E38EE3600093778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C40B18C1E38EE3600093778 /* Build configuration list for PBXNativeTarget "SnapplifyTechnicalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C40B18D1E38EE3600093778 /* Debug */,
+				3C40B18E1E38EE3600093778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C40B1511E38EE3600093778 /* Project object */;
+}
